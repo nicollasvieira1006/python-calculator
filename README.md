@@ -24,7 +24,7 @@ Calculadora desenvolvida em Python para prática de lógica de programação, es
 ## ▶️ Como executar
 
 ```python
-print("===== CALCULADORA PYTHON =====")
+print("================= CALCULADORA PYTHON =================")
 
 # Entrada de dados
 n1 = float(input("\nDigite o primeiro número: "))
@@ -34,7 +34,7 @@ n2 = float(input("Digite o segundo número: "))
 operacao = input(
     "\nEscolha a operação (+, -, *, /): "
 )
-
+print("=====================================================")
 resultado = 0
 
 # Operações
@@ -70,6 +70,7 @@ if operacao in ["+", "-", "*", "/"] and n2 != 0:
 
     else:
         print("O resultado é ÍMPAR.")
+        
 ```
 ---
 
